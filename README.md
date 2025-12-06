@@ -2,7 +2,7 @@
 
 This repository demonstrates the **grokking** phenomenon - where neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division).
 
-![Grokking Visualization](./grokking_plot.png){:width="400px"}
+<img src="./grokking_plot.png" alt="Grokking Visualization" style="width: 500px; height: auto;">
 
 ## Overview
 
@@ -123,4 +123,4 @@ The plot will be saved to `grokking_result.png` (or your specified path).
 ## References
 
 This implementation is based on the paper:
-[- Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"](https://arxiv.org/pdf/2201.02177){:target="_blank"}
+- <a href="https://arxiv.org/pdf/2201.02177" target="_blank" rel="noopener noreferrer">Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"</a>
