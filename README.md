@@ -2,11 +2,11 @@
 
 This repository provides an implementation to reproduce and investigate the **grokking** phenomenon, where neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division), replicating the abrupt generalization transition and double-descent loss curves described in [Power et al. (2022)](https://arxiv.org/pdf/2201.02177). It supports the configuration of different parameters to investigate their influence on the timing and emergence of grokking. This provides a reproducible environment for studying the transition from memorization to generalization in neural networks.
 
-<img src="./grokking_plot.png" alt="Grokking Visualization" style="width: 500px; height: auto;">
-
 ## Overview
 
 The model learns to perform modular division: given `a / b mod p`, predict the result. With proper regularization (weight decay), the model first memorizes the training set, then after many more optimization steps, suddenly achieves perfect generalization on the validation set.
+
+<img src="./grokking_plot.png" alt="Grokking Visualization" style="width: 500px; height: auto;">
 
 ## Installation
 
