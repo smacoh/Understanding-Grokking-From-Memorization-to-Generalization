@@ -1,6 +1,6 @@
 # Grokking: Generalization Beyond Overfitting
 
-This repository demonstrates the **grokking** phenomenon - where neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division).
+This repository demonstrates the **grokking** phenomenon, in which neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division) and supports the configuration of different parameters to investigate their influence on the timing and emergence of grokking.
 
 <img src="./grokking_plot.png" alt="Grokking Visualization" style="width: 500px; height: auto;">
 
