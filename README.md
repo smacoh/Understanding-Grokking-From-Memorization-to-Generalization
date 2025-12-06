@@ -1,6 +1,6 @@
-# Grokking: Generalization Beyond Overfitting
+# Understanding Grokking: From Memorization to Generalization
 
-This repository demonstrates the **grokking** phenomenon, in which neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division) and supports the configuration of different parameters to investigate their influence on the timing and emergence of grokking.
+This repository provides an implementation to reproduce and investigate the **grokking** phenomenon, where neural networks suddenly generalize long after overfitting the training set. The code trains a simple transformer on modular arithmetic (specifically modular division), replicating the abrupt generalization transition and double-descent loss curves described in [Power et al. (2022)](https://arxiv.org/pdf/2201.02177). It supports the configuration of different parameters to investigate their influence on the timing and emergence of grokking. This provides a reproducible environment for studying the transition from memorization to generalization in neural networks.
 
 <img src="./grokking_plot.png" alt="Grokking Visualization" style="width: 500px; height: auto;">
 
@@ -123,4 +123,4 @@ The plot will be saved to `grokking_result.png` (or your specified path).
 ## References
 
 This implementation is based on the paper:
-- [Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"](https://arxiv.org/pdf/2201.02177){:target="_blank"}
+- [Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"](https://arxiv.org/pdf/2201.02177)
