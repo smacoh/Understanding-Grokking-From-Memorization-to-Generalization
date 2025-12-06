@@ -123,4 +123,4 @@ The plot will be saved to `grokking_result.png` (or your specified path).
 ## References
 
 This implementation is based on the paper:
-- <a href="https://arxiv.org/pdf/2201.02177" target="_blank" rel="noopener noreferrer">Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"</a>
+- [Power et al. (2022). "Grokking: Generalization Beyond Overfitting on Small Algorithmic Datasets"](https://arxiv.org/pdf/2201.02177){:target="_blank"}
